@@ -23,4 +23,9 @@ module.exports = require('lineman').config.extend('application', {
   //   }
   // }
 
+  spec: {
+    options: {
+      growl: true
+    }
+  }
 });
